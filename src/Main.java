@@ -45,7 +45,20 @@ public class Main {
             }
 
         } else if(input.equals("r")) {
-            System.out.println("TODO: Happy end");
+            System.out.println("As you walk about from the castle you see, a (d)esert, a (f)orest and a (m)ountain range.");
+            System.out.print("Which do you choose to explore? ");
+            input = in.nextLine();
+
+            if(input.equals("d")) {
+                System.out.println("After days of walking you reach the endless deserts of Input Name Here.");
+                System.out.println("TODO: Implement desert gameplay");
+
+            } else if(input.equals("f")) {
+                System.out.println("TODO: Implement forest gameplay");
+
+            } else if(input.equals("m")) {
+                System.out.println("TODO: Implement mountain gameplay");
+            }
 
         } else {
             System.out.println("Please answer the prompt correctly next time.");
