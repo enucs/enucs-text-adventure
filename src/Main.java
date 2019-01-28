@@ -45,7 +45,12 @@ public class Main {
             }
 
         } else if(input.equals("r")) {
-            System.out.println("TODO: Happy end");
+            System.out.println("Looking defeated you begin to walk about from the castle.");
+            System.out.println("After a few hours walking you begin to see a small patrol of guards in the distance.");
+            System.out.println("As you approach them you see that they are carrying the princess with them.");
+            System.out.println("You perform some awesome karate moves and knock out all the guards.");
+            System.out.println("Congratulations, you've saved the princess!");
+            System.out.println("GOOD ENDING!!");
 
         } else {
             System.out.println("Please answer the prompt correctly next time.");
