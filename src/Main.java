@@ -45,6 +45,9 @@ public class Main {
             }
 
         } else if(input.equals("r")) {
+
+            //Show merge conflict here
+
             System.out.println("As you walk about from the castle you see, a (d)esert, a (f)orest and a (m)ountain range.");
             System.out.print("Which do you choose to explore? ");
             input = in.nextLine();
@@ -54,9 +57,11 @@ public class Main {
                 System.out.println("TODO: Implement desert gameplay");
 
             } else if(input.equals("f")) {
+                //Implement else where and show pull
                 System.out.println("TODO: Implement forest gameplay");
 
             } else if(input.equals("m")) {
+                //Show add, commit, push work flow here
                 System.out.println("TODO: Implement mountain gameplay");
             }
 
