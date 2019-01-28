@@ -14,7 +14,20 @@ public class Main {
         String input = in.nextLine();
 
         if(input.equals("c")) {
-            System.out.println("TODO: castle");
+            System.out.println("As you enter the castle you find a large dragon waiting for you!");
+            System.out.print("Do you (a)ttack the dragon or (e)xplain that you're here to fix the printer? ");
+            input = in.nextLine();
+
+            if(input.equals("a")) {
+                System.out.println("You hopelessly try to attack the dragon.");
+                System.out.println("The dragon breathes fire and does over 9000 damage!");
+                System.out.println("As you lie there dying the dragon says to you: 'git gud'");
+                System.out.println("With your last dying breath you reply:\n'git: 'gud' is not a git command. See 'git --help'.'");
+                System.out.println("YOU LOSE!!");
+
+            } else if(input.equals("e")) {
+                System.out.println("TODO: Bad ending");
+            }
 
         } else if(input.equals("r")) {
             System.out.println("TODO: Happy end");
