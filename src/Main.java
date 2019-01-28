@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.concurrent.TimeUnit;
 
 public class Main {
     public static void main(String[] args) {
@@ -26,7 +27,21 @@ public class Main {
                 System.out.println("YOU LOSE!!");
 
             } else if(input.equals("e")) {
-                System.out.println("TODO: Bad ending");
+                System.out.println("The dragon lets out a small ring of smoke to let you know it appreciates that someone has finally come to fix it and lets you continue.");
+                System.out.println("As you rush up the stairs to get the highest room in the tallest tower you find...");
+                try {
+                    TimeUnit.SECONDS.sleep(2);
+                } catch(Exception e) {
+                    e.printStackTrace();
+                }
+                System.out.println("...");
+                try {
+                    TimeUnit.SECONDS.sleep(2);
+                } catch(Exception e) {
+                    e.printStackTrace();
+                }
+                System.out.println("A sign saying: 'Your princess is in another castle!'");
+                System.out.println("BAD ENDING!!");
             }
 
         } else if(input.equals("r")) {
