@@ -9,7 +9,8 @@ public class Main {
 
         System.out.println("Welcome adventurer " + name + ", I hope you survive the brutal challenge that awaits!");
 
-        System.out.print("There is a tall and foreboding castle in front of you, do you enter the (c)astle or (r)un away? ");
+        System.out.println("There is a tall and foreboding castle in front of you.");
+        System.out.print("Do you enter the (c)astle or (r)un away? ");
         String input = in.nextLine();
 
         if(input.equals("c")) {
