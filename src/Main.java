@@ -58,7 +58,7 @@ public class Main {
 
             } else if(input.equals("f")) {
                 //Implement else where and show pull
-                System.out.println("TODO: Implement forest gameplay");
+                System.out.println("Green forest");
 
             } else if(input.equals("m")) {
                 //Show add, commit, push work flow here
