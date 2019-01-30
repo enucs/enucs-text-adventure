@@ -62,7 +62,7 @@ public class Main {
 
             } else if(input.equals("m")) {
                 //Show add, commit, push work flow here
-                System.out.println("TODO: Implement mountain gameplay");
+                System.out.println("You find a large mountain range which is impossible to cross.");
             }
 
         } else {
